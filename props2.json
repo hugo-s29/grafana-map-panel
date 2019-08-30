@@ -1,0 +1,110 @@
+{
+  "id": 2,
+  "data": {
+    "state": "Done",
+    "request": {
+      "requestId": "Q105",
+      "timezone": "",
+      "panelId": 2,
+      "dashboardId": null,
+      "range": {
+        "from": "2019-08-30T02:52:57.563Z",
+        "to": "2019-08-30T08:52:57.563Z",
+        "raw": {
+          "from": "now-6h",
+          "to": "now"
+        }
+      },
+      "timeInfo": "",
+      "interval": "15s",
+      "intervalMs": 15000,
+      "targets": [
+        {
+          "data": null,
+          "target": "Map",
+          "refId": "A",
+          "hide": false,
+          "type": "timeseries"
+        }
+      ],
+      "maxDataPoints": 1334,
+      "scopedVars": {
+        "__from": {
+          "text": "1567133548835",
+          "value": "1567133548835"
+        },
+        "__to": {
+          "text": "1567155148836",
+          "value": "1567155148836"
+        },
+        "__interval": {
+          "text": "15s",
+          "value": "15s"
+        },
+        "__interval_ms": {
+          "text": "15000",
+          "value": 15000
+        }
+      },
+      "startTime": 1567155177564,
+      "rangeRaw": {
+        "from": "now-6h",
+        "to": "now"
+      },
+      "adhocFilters": [],
+      "endTime": 1567155177795
+    },
+    "series": [
+      {
+        "name": "Map",
+        "fields": [
+          {
+            "name": "Map",
+            "type": "number"
+          },
+          {
+            "name": "Time",
+            "type": "time",
+            "unit": "dateTimeAsIso"
+          }
+        ],
+        "rows": [
+          {
+            "type": "FeatureCollection",
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [0.8349609375, 48.83579746243093]
+                }
+              },
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [4.39453125, 46.98025235521883]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "timeRange": {
+    "from": "2019-08-30T02:52:57.563Z",
+    "to": "2019-08-30T08:52:57.563Z",
+    "raw": {
+      "from": "now-6h",
+      "to": "now"
+    }
+  },
+  "options": {},
+  "transparent": false,
+  "width": 1318,
+  "height": 154,
+  "renderCounter": 0
+}
